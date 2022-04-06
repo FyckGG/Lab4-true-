@@ -1,0 +1,3 @@
+int er=45;
+String a="3rrrr";
+double wq=23.4;

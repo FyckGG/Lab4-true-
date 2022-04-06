@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">   
+        <title> Справка </title>
+		 <style>
+         .fig {
+         text-align: center; 
+         }
+		 </style>
+    </head>
+    <body>
+        <h2 align="center">Лабораторная работа №4 "Конечные автоматы"</h2>
+        <p><font size="4"><strong>Цель работы</strong>: Изучение конечных автоматов.<br>В соответствии с заданным вариантом задания:</font></p>
+		<ol>
+           <li><font size="4">Спроектировать граф конечного автомата.</font></a></li>
+		   <li><font size="4">Выполнить программную реализацию алгоритма работы конечного автомата</font></a></li>
+        </ol>
+        <p><font size="4">В качестве варианта задания было взято задание из курсовой работы: декларирование переменных с индексами языка FORTRAN.</p>Описание грамматики:<br>V(T) = {real, complex, integer, logical, character, ::, 1, 2, 3,..., 9, a, b, c,...Y, Z}<br>V(N) = {<ТИП>, <ИМЯ>, <ПАРАМЕТР>,<БУКВА>,<ЦИФРА>}<br>P = {<br>1) Z -> type '::' <ИМЯ><ПАРАМЕТР><br>2)type - <ТИП> -> {real|complex|integer|logical|character}<br>3)<ИМЯ> -> letter{letter|digit}<br>4)<ПАРАМЕТР> -> '('<НАЧАЛО_ПАРАМЕТРА><br>5)<НАЧАЛО_ПАРАМЕТРА> -> digit<КОНЕЦ_ПАРАМЕТРА><br>6)<КОНЕЦ_ПАРАМЕТРА> -> ')'|digit<КОНЕЦ_ПАРАМЕТРА><br>7)letter - <БУКВА> ->{a|b|c|...|Y|Z}<br>8)digit - <ЦИФРА> -> {1|2|3|...|8|9}</font></p>
+<p><font size="4"><strong>Результаты работы:</strong> 
+       		<p class="fig"><img src="pic7.png" width="1033" height="368"></p>
+		<p align="center"><font size="4">Рисунок 1. Граф автомата</p>
+		<p class="fig"><img src="pic1.png" width="372" height="152"></p>
+		<p class="fig"><img src="pic2.png" width="448" height="191"></p>
+		<p class="fig"><img src="pic3.png" width="621" height="197"></p>
+		<p class="fig"><img src="pic4.png" width="995" height="201"></p>
+		<p class="fig"><img src="pic5.png" width="1077" height="187"></p>
+		<p class="fig"><img src="pic6.png" width="657" height="193"></p>
+		<p align="center"><font size="4">Рисунки 2-7. Тестовые данные и результаты их обработки</p>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+int fgfkg=54545; char fkfv='c';\n
+boolean what=false;
+String [ggb]="fdfdf"; String ggb="cdcdcdc";
+char ff='d';
+double rtkgggbbkkb=2323.5;\n
